@@ -1,36 +1,95 @@
-/* h1{
-    color: blue;
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-
+    background-color: #f2f2f2;
+    margin: 20px;
 }
 
-#container {
-    max-width: 600px;
-    margin: 50px auto;
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-.expense-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+header {
+    text-align: center;
+    color: #2e684b;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    color: gray;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btn-add {
+    background-color: #4a8062;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-add:hover {
+    background-color: #356347;
+}
+
+.controls {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
- */
+.total-box {
+    background-color: #e2f0e6;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4a8062;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.error-msg {
+    color: red;
+}
+
+.empty-msg {
+    text-align: center;
+}
